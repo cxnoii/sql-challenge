@@ -17,7 +17,7 @@ CREATE TABLE "titles" (
 CREATE TABLE "employees" (
     "emp_no" int NOT NULL,
     "emp_title_id" varchar NOT NULL,
-    "birth_date" date NOT NULL,
+    "birth_date" date,
     "first_name" varchar NOT NULL,
     "last_name" varchar NOT NULL,
     "sex" varchar NOT NULL,
